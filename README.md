@@ -1,4 +1,5 @@
-# Fusion Engine
+# Fusion Engine ![image](https://user-images.githubusercontent.com/106883655/233096310-04222ffa-8828-4b4b-b067-3f08028dc42f.png)
+
 
 Fusion is a game engine for creating graphical applications using the SFML library. It provides a simple interface for creating windows, rendering graphics, and handling user input. It is and engine to create games fast and easy
 
