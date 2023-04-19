@@ -20,6 +20,10 @@ To get this into your project, you just get this repository into your directory 
   cd SDLion
 ```
 
+## Community
+Our community is just growing, so if you want to help us with the project, it will be very helpful
+We have a discord server at this link (https://discord.gg/Smg3CK4ZMc)
+
 ## Documentation
 
 Coming soon when project is fully done.
