@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dmarhitych-pro/cpp/fusion-engine'
+make: Leaving directory `/Users/dmarhitych-pro/cpp/fusion-engine'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

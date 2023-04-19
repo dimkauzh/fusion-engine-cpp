@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.1)
+
+# Set the project name
+project(fusion-engine)
+
+# Find the SFML library
+find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
+
+# Set the source directory
+set(SOURCE_DIR "src")
+
+# Add an executable
+add_executable(engine src/main.cpp)
+
+add_executable(example examples/example.cpp)
+
+# Link the SFML library
+target_link_libraries(engine sfml-graphics sfml-audio)
