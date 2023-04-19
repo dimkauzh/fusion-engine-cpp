@@ -9,10 +9,10 @@ find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 # Set the source directory
 set(SOURCE_DIR "src")
 
-# Add an executable
-add_executable(engine src/main.cpp)
+include_directories(src)
 
+# Add an executable
 add_executable(example examples/example.cpp)
 
 # Link the SFML library
-target_link_libraries(engine sfml-graphics sfml-audio)
+target_link_libraries(example sfml-graphics sfml-audio)
