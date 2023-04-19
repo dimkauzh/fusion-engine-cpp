@@ -4,15 +4,24 @@ cmake_minimum_required(VERSION 3.1)
 project(fusion-engine)
 
 # Find the SFML library
-find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
+#find_package(OpenGL REQUIRED)
 
 # Set the source directory
 set(SOURCE_DIR "src")
+# Find the GLFW package
+find_package(glfw3 REQUIRED)
 
-include_directories(src)
+# Add the GLFW include directory to your project
+include_directories(${GLFW_INCLUDE_DIRS})
+
+# Add the GLFW library to your project
 
 # Add an executable
 add_executable(example examples/example.cpp)
 
-# Link the SFML library
-target_link_libraries(example sfml-graphics sfml-audio)
+target_link_libraries(example ${GLFW_LIBRARIES})
+
+
+# Add the source files
+include_directories(src)
+include_directories(src/include)

@@ -92,10 +92,6 @@ example_EXTERNAL_OBJECTS =
 
 example: CMakeFiles/example.dir/examples/example.cpp.o
 example: CMakeFiles/example.dir/build.make
-example: /usr/local/lib/libsfml-graphics.2.5.1.dylib
-example: /usr/local/lib/libsfml-audio.2.5.1.dylib
-example: /usr/local/lib/libsfml-window.2.5.1.dylib
-example: /usr/local/lib/libsfml-system.2.5.1.dylib
 example: CMakeFiles/example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmarhitych-pro/cpp/fusion-engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)

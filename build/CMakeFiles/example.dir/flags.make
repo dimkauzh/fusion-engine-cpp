@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/dmarhitych-pro/cpp/fusion-engine/src -isystem /usr/local/include
+CXX_INCLUDES = -I/Users/dmarhitych-pro/cpp/fusion-engine/src -I/Users/dmarhitych-pro/cpp/fusion-engine/src/include
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
