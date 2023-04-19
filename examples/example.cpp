@@ -1,8 +1,8 @@
-#include "main.hpp"
+#include "engine.hpp"
 
 int main()
 {
-    sf::Window window(sf::VideoMode(800, 600), "SFML window");
+    sf::Window window(sf::VideoMode(800, 600), "window");
     while (window.isOpen())
     {
         sf::Event event;
