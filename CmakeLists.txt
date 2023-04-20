@@ -1,27 +1,26 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.0.0)
 
-# Set the project name
-project(fusion-engine)
+project(fusion-engine VERSION 0.1.0)
 
-# Find the SFML library
-#find_package(OpenGL REQUIRED)
+add_executable(example examples/example.cpp)
+
+target_link_libraries(example SDL2main SDL2 GL)
 
 # Set the source directory
 set(SOURCE_DIR "src")
-# Find the GLFW package
-find_package(glfw3 REQUIRED)
 
-# Add the GLFW include directory to your project
-include_directories(${GLFW_INCLUDE_DIRS})
 
-# Add the GLFW library to your project
+#Initialize SDL2
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
+target_link_libraries(example ${SDL2_LIBRARIES})
 
-# Add an executable
-add_executable(example examples/example.cpp)
-
-target_link_libraries(example ${GLFW_LIBRARIES})
 
 
 # Add the source files
 include_directories(src)
 include_directories(src/include)
+
+
+
+

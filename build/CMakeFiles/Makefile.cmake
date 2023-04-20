@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config-version.cmake"
+  "/Library/Frameworks/SDL2.framework/Resources/CMake/sdl2-config.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.22.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.4/CMakeCXXCompiler.cmake"
@@ -91,6 +93,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/local/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/opt/local/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/opt/local/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/opt/local/share/cmake-3.22/Modules/FeatureSummary.cmake"
   "/opt/local/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
   "/opt/local/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake"
   "/opt/local/share/cmake-3.22/Modules/Platform/Apple-AppleClang-CXX.cmake"
@@ -101,10 +104,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/local/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake"
   "/opt/local/share/cmake-3.22/Modules/Platform/Darwin.cmake"
   "/opt/local/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
-  "/usr/local/lib/cmake/glfw3/glfw3Config.cmake"
-  "/usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake"
-  "/usr/local/lib/cmake/glfw3/glfw3Targets-release.cmake"
-  "/usr/local/lib/cmake/glfw3/glfw3Targets.cmake"
   )
 
 # The corresponding makefile is:
